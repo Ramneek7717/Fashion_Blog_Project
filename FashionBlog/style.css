@@ -1,0 +1,444 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: wrap;
+    background-color:lightgrey;
+}
+.nav-bar{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    list-style-type: none;
+    margin:0;
+    padding: 10px;
+    order:1;
+}
+.nav-bar a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.nav-right{
+    float:right!important
+}
+.nav-bar a.hovericon:hover{
+    background-color: lightgray;
+    color: black;
+
+
+}
+.header1{
+    order:2;
+    width:100%;
+}
+.display-container{
+    order:3;
+    width:100%;
+}
+.Titleheading{
+    order:4;
+    width:100%;
+}
+.nametagAdv{
+    order:5;
+    width:100%;
+}
+.titleheading1{
+    order:6;
+    width:100%;
+}
+.titleheading2{
+    order:7;
+    width:100%;
+}
+.taginpsub{
+    order:6;
+    width:100%;
+
+}
+.footer1{
+    order:8;
+    width:100%;
+}
+div.Titleheading{
+    height:1000px ;
+}
+
+
+.headerlog-container{
+    background-color: white;
+    width: 100%;
+    height: 210px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.span1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+.display-left{
+    position:absolute;top:100%;left:10%;
+    transform: translate(0%,-50%);
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.display-left button{
+    opacity: 0.5;
+    padding: 20px;
+    background-color: white;
+    font-size: 16px;
+    
+}
+.display-left button:hover{
+    opacity: 0.9;
+
+}
+.MyName{
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+.left{
+    background-color: white;
+    color: black; 
+    border:1px solid lightgrey;
+    padding: 7px;
+
+}
+.left:hover{
+    background-color:lightgray;
+
+}
+.left{
+    float: left!important;;
+}
+.right{
+    float: right!important;;
+}
+.right{
+    background-color: black;
+    color: white; 
+    border:1px solid lightgrey;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.right:hover{
+    background-color:lightgray;
+
+}
+.popular-post{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 6px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.popular-post-container ul{
+    list-style-type: none;
+    background-color: white;
+}
+
+.popular-post-container li:hover{
+    background-color: lightgray;
+    padding: 70px;
+}
+
+
+.advertise{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 6px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.youradd{
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+    border: 20px solid white;
+    
+}
+.tags{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 6px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tagitem span{
+    display: flex;
+    justify-content: space-around;
+}
+.inspiration{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.followme{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.followmeicon i{
+     text-align: center;    
+    color: black;
+    background-color: white;
+    padding: 20px;
+    width: 30px;
+    
+}
+.followmeicon i:hover{
+    opacity: 0.5;
+    background-color: lightgrey;
+    padding: 20px;
+}
+.subscribe{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscribeitems button{
+    background-color: red;
+    color: white;
+    border:none;
+    padding: 10px;
+    width: 100%;
+    
+
+}
+.subscribeitems button:hover{
+    background-color: rgb(233, 226, 226);
+    color:black;
+    border:none;
+    padding: 10px;
+    width: 100%;
+    
+
+}
+.topbutton{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    
+    
+}
+.top-container{
+   background-color:rgb(80, 77, 77);
+   color: white;
+   height: 150px;
+   width:1330px ;
+   text-align: left;
+   padding: 30px;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Titleheading{
+    display: flex;
+    flex-wrap:wrap;
+    background-color:white;
+    width:70%;
+    padding: 20px;
+    margin-bottom:0px;
+}
+.headeritems{
+    text-align: center;
+}
+
+.Replies{
+    display: inline;
+    text-align: center;
+}
+.popular-post-container{
+    width: 30%;
+}
+.titleheading1{
+    background-color:white;
+    width:70%;
+    padding: 20px;
+    height: 800px;
+    margin-top: -120px;
+}
+
+.nametagAdv{
+    display:block;
+    width:30%;
+    margin-bottom: 190px;
+    
+}
+.taginpsub{
+    display:block;
+    width:30%;
+
+}
+
+.inspirationimage{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px;
+    
+}
+.MyName{
+    background-color:black;
+}
+.titleheading2{
+    background-color:white;
+    width:70%;
+    padding: 20px;
+    margin-top: -300px;
+    margin-right: 400px;
+}
+ 
+.titleheading2description{
+    text-align: center;
+}
+.div1{
+     
+    width: 100%;
+    height: 1000px;
+    background-image: url('jane.jpg');
+    background-size: 100% 100%;
+  }
+  .div2{
+ 
+    width: 100%;
+    height: 400px;
+    background-image: url('girl_hat.jpg');
+    background-size: 100% 100%;
+  }
+  .div3{
+ 
+    width: 100%;
+    height: 400px;
+    background-image: url('hatmen.jpg');
+    background-size: 100% 100%;
+  }
+  .div4{
+ 
+    width: 100%;
+    height: 400px;
+    background-image: url('runway.jpg');
+    background-size: 100% 100%;
+  } 
+  .div5{
+ 
+    width: 100%;
+    height: 200px;
+    background-image: url('avatar_girl2.jpg');
+    background-size: 100% 100%;
+  } 
+@media screen and (max-width: 800px) {
+    .body{
+        display: flex;
+        flex-direction: row;
+    }
+  .nav-bar{
+           order:1;
+           width:100%;
+           margin: 10px;
+  }
+  .header1{
+    order:2;
+    width:100%;
+    margin: 10px;
+  }
+  .display-container{
+    order:3;
+    width: 100%;
+    margin: 10px;
+    
+  }
+  .Titleheading{
+    order: 4;
+    width:80%;
+    margin: 10px;
+  }
+   .titleheading1{
+    order:5;
+    width:100%;
+    margin: 10px;
+   }
+   .titleheading2{
+    order:6;
+    width:100%;
+    margin: 10px;
+
+   }
+   .nametagAdv{
+    order:7;
+    width:100%;
+    margin: 10px; 
+}
+   .taginpsub{
+    order:9;
+    width:100%;
+    margin:10px; 
+    margin-top: 130px;
+   }
+   .top-container{
+    width:100%;
+    margin: 5px;
+   }
+   .footer1{
+    order:10;
+    width:100%;
+    margin:10px; 
+   }
+   .titleheading2{
+    background-color:white;
+    width:103%;
+    padding: 20px;
+   }
+   .titleheading1{
+    background-color:white;
+    width:103%;
+    
+}
+
+.Titleheading{
+    display: flex;
+    flex-wrap:wrap;
+    background-color:white;
+    width:103%;
+     padding: 20px;
+}
+.div1{
+     
+        width: 100%;
+        height: 800px;
+        background-image: url('jane.jpg');
+        background-size: 100% 100%;
+      }
+.display-left{
+    font-size: 10px;
+}
+.headeritems{
+    font-size: 20px;
+}
+.headerlog-container{
+      height: 150px;;
+}
+}
+
